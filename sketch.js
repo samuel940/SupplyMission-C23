@@ -35,19 +35,19 @@ function setup() {
 	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0, isStatic:true});
 	World.add(world, packageBody);
 
-	logSprite1=createSprite(400,600,200,20);
+	logSprite1=createSprite(400,650,200,20);
 	logSprite1.shapeColor=color("red");
-	log1 = Bodies.rectangle(400,600,200,20, {isStatic:true});
+	log1 = Bodies.rectangle(400,650,200,20, {isStatic:true});
 	World.add(world, log1);
 
-	logSprite2=createSprite(300,550,20,100);
+	logSprite2=createSprite(300,600,20,100);
 	logSprite2.shapeColor=color("red");
-	log2 = Bodies.rectangle(500,550,20,100, {isStatic:true});
+	log2 = Bodies.rectangle(500,600,20,100, {isStatic:true});
 	World.add(world, log2);
 
-	logSprite3=createSprite(500,550,20,100);
+	logSprite3=createSprite(500,600,20,100);
 	logSprite3.shapeColor=color("red");
-	log3 = Bodies.rectangle(500,550,20,100, {isStatic:true});
+	log3 = Bodies.rectangle(500,600,20,100, {isStatic:true});
 	World.add(world, log3);
 
 
